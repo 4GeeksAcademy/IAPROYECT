@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabla de Herramientas Vibe Coding</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 40px;
+      color: #222;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #111;
+    }
+
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 1200px;
+    }
+
+    th,
+    td {
+      border: 1px solid #dce3ec;
+      padding: 14px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    th {
+      background-color: #eef3f8;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    td {
+      font-size: 14px;
+    }
+
+    td:first-child,
+    th:first-child {
+      text-align: left;
+      font-weight: bold;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+
+    .rating {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .notes {
+      text-align: left;
+      line-height: 1.5;
+      max-width: 350px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Tabla de Puntuación de Herramientas de Vibe Coding</h1>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Herramienta</th>
+          <th>UI / UX</th>
+          <th>Costo</th>
+          <th>Velocidad</th>
+          <th>Dependencia de Plataforma</th>
+          <th>Control</th>
+          <th>Mantenibilidad</th>
+          <th>Calidad del Código</th>
+          <th>Reutilización</th>
+          <th>Calificación para Tus Necesidades (1-5)</th>
+          <th>Notas / Justificación</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Vercel v0</td>
+          <td>5</td>
+          <td>3</td>
+          <td>5</td>
+          <td>2</td>
+          <td>2</td>
+          <td>1</td>
+          <td>5</td>
+          <td>1</td>
+          <td class="rating">3</td>
+          <td class="notes">
+            Muy útil para generar interfaces rápidas y diseños atractivos.
+            Ideal para prototipos visuales, aunque no es la mejor opción para
+            aprender backend o mantener una aplicación completa.
+          </td>
+        </tr>
+
+        <tr>
+          <td>Replit</td>
+          <td>4</td>
+          <td>1</td>
+          <td>4</td>
+          <td>1</td>
+          <td>1</td>
+          <td>3</td>
+          <td>5</td>
+          <td>1</td>
+          <td class="rating">3</td>
+          <td class="notes">
+            Buena herramienta para empezar rápido y probar ideas sin mucha
+            configuración. Sin embargo, puede generar dependencia de la plataforma
+            y ofrece menos control que un entorno profesional.
+          </td>
+        </tr>
+
+        <tr>
+          <td>Lovable</td>
+          <td>5</td>
+          <td>3</td>
+          <td>4</td>
+          <td>?</td>
+          <td>3</td>
+          <td>3</td>
+          <td>4</td>
+          <td>1</td>
+          <td class="rating">3</td>
+          <td class="notes">
+            Muy interesante para crear prototipos completos rápidamente.
+            Es útil para validar ideas, pero puede limitar el aprendizaje y
+            el control técnico si se usa como herramienta principal.
+          </td>
+        </tr>
+
+        <tr>
+          <td>Windsurf</td>
+          <td>3</td>
+          <td>5</td>
+          <td>3</td>
+          <td>5</td>
+          <td>5</td>
+          <td>5</td>
+          <td>5</td>
+          <td>5</td>
+          <td class="rating">5</td>
+          <td class="notes">
+            Muy alineada con mis necesidades porque permite trabajar sobre código
+            real, mantener control del proyecto, reutilizar componentes y aprender
+            mientras desarrollo aplicaciones más serias.
+          </td>
+        </tr>
+
+        <tr>
+          <td>Cursor</td>
+          <td>2</td>
+          <td>4</td>
+          <td>3</td>
+          <td>5</td>
+          <td>4</td>
+          <td>5</td>
+          <td>4</td>
+          <td>5</td>
+          <td class="rating">5</td>
+          <td class="notes">
+            Excelente opción para aprender y desarrollar proyectos reales.
+            Combina IA con control del código, permite corregir errores,
+            mantener estructura profesional y trabajar sobre frontend y backend.
+          </td>
+        </tr>
+
+        <tr>
+          <td>ChatGPT</td>
+          <td>4</td>
+          <td>4</td>
+          <td>5</td>
+          <td>4</td>
+          <td>3</td>
+          <td>4</td>
+          <td>4</td>
+          <td>4</td>
+          <td class="rating">5</td>
+          <td class="notes">
+            Muy útil para explicar conceptos, resolver errores, planificar
+            arquitectura, generar ideas y entender el código. Es una herramienta
+            clave de apoyo durante todo el proceso de aprendizaje.
+          </td>
+        </tr>
+
+        <tr>
+          <td>GitHub Copilot</td>
+          <td>3</td>
+          <td>3</td>
+          <td>5</td>
+          <td>4</td>
+          <td>4</td>
+          <td>4</td>
+          <td>4</td>
+          <td>4</td>
+          <td class="rating">4</td>
+          <td class="notes">
+            Muy buena para acelerar la escritura de código dentro del editor.
+            Es especialmente útil cuando ya entiendo lo que quiero construir,
+            aunque explica menos que ChatGPT o Cursor.
+          </td>
+        </tr>
+
+        <tr>
+          <td>Bolt.new</td>
+          <td>5</td>
+          <td>3</td>
+          <td>5</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+          <td>4</td>
+          <td>2</td>
+          <td class="rating">3</td>
+          <td class="notes">
+            Buena herramienta para crear prototipos rápidos de aplicaciones web.
+            La usaría para validar ideas iniciales, pero no como herramienta
+            principal para proyectos que quiero mantener a largo plazo.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
